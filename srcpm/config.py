@@ -15,7 +15,7 @@ class Config:
     UPLOAD_EXCEL_FOLDER = os.path.join(basedir, 'app/static/upload/excel/')
     UPLOAD_XMIND_FOLDER = os.path.join(basedir, 'app/static/upload/xmind/')
     #公司邮箱后缀限制，只能使用公司邮箱注册账号。
-    CORP_MAIL = '@creditease.cn'
+    CORP_MAIL = '@huobi.com'
     #平台发送的每封邮件的邮件抄送列表，可以设置发送给安全部邮箱列表，可自行修改，也可以保持不变为空
     '''
     示例：
