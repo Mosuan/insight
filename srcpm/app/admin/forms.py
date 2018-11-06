@@ -130,7 +130,7 @@ class AssetForm(Form):
 	is_https = BooleanField('Is HTTPS?')
 	in_or_out = SelectField(u'内外网', choices=area_choices)
 	level = SelectField(u'重要等级', choices=level_choices)
-	business_cata = StringField(u'组件名')
+	business_cata = StringField(u'组件')
 	department = SelectField(u'部门')
 	owner = StringField(u'负责人')
 	sec_owner = StringField(u'版本')
