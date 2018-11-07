@@ -68,10 +68,10 @@ class ProductionConfig(Config):
         ''
 
     # 平台发邮件账号设置
-    SRCPM_MAIL_SENDER = '安全部 <xxx@creditease.cn>'
+    SRCPM_MAIL_SENDER = '基础安全部 <security_testing>'
     
     # 发送邮件的服务器设置，账号密码由系统变量中读取
-    MAIL_SERVER = 'x.x.x.x'
+    MAIL_SERVER = 'smtp.126.com'
     MAIL_PORT = 25
     MAIL_USE_TLS = False
     MAIL_USERNAME = os.environ.get(
